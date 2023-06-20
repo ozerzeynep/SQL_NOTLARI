@@ -1,7 +1,7 @@
---LIKE OPERATÖRÜ
---Karakterler yardımı ile belirtilen alanda eşleşen kayıtları getirir
+--LIKE OPERATÃ–RÃœ
+--Karakterler yardÄ±mÄ±yla belirtilen alana istenen deÄŸeri dÃ¶ndÃ¼rÃ¼r.
 
-select * from urun where UrunAdı like '%a%'
-select * from urun where UrunAdı like 'e%'
+select * from urun where UrunAdÃ½ like '%a%'
+select * from urun where UrunAdÃ½ like 'e%'
 select * from urun where UrunKategorisi like '%a'
 select * from urun where UrunKategorisi like '%i%'
