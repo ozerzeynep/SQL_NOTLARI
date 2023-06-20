@@ -1,13 +1,15 @@
 --UPDATE KOMUTU
---Değişim yapmayı sağlar
---Bir tabloda bir veya daha fazla verinin güncellenmesi amacı ile kullanılabilir
+--DeÄŸiÅŸim yapmayÄ± saÄŸlar
+--Bir tabloda bir veya daha fazla verinin gÃ¼ncellenmesi amacÄ± ile kullanÄ±labilir
 
-update urun set UrunAdedi=210 where UrunAdı='Yeni Dünya'
+update urun set UrunAdedi=210 where UrunAdÄ±='Yeni DÃ¼nya'
 select * from urun
 
-update urun set UrunAdı='Kereviz' where UrunNo=13
+update urun set UrunAdÄ±='Kereviz' where UrunNo=13
 select * from urun
 
 update urun set UrunKategorisi='Sebze' where UrunNo=13
 select * from urun
 
+update firma set CalÄ±sanIsim='Berkant' where CalÄ±sanID=38
+update firma set CalÄ±sanSoyisim='Ã–zer' where CalÄ±sanID=30
