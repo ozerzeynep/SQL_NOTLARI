@@ -1,4 +1,4 @@
 --CHECK CONSTRAINT
---Belirli koþullar eklemek için kullanýlýr.
+--Belirli koÅŸullar eklemek iÃ§in kullanÄ±lÄ±r.
 
-alter table firma add constraint calýsan check(CalýsanID<100)
+alter table firma add constraint calÄ±san check(CalÄ±sanID<100)
