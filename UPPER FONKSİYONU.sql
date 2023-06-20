@@ -1,6 +1,6 @@
---UPPER FONKSİYONU
---Küçük karakterleri büyük karakter haline dönüştürmeye yarayan fonksiyondur
+--UPPER FONKSÄ°YONU
+--KÃ¼Ã§Ã¼k karakterleri bÃ¼yÃ¼k karakter haline dÃ¶nÃ¼ÅŸtÃ¼rmeye yarayan fonksiyondur
 
-select UPPER(UrunAdı) from urun
+select UPPER(UrunAdÄ±) from urun
 select UPPER(UrunKategorisi) from urun
-select UPPER(UrunAdı) as [Ürün Adları] from urun
+select UPPER(UrunAdÄ±) as [ÃœrÃ¼n AdlarÄ±] from urun
