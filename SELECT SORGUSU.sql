@@ -1,22 +1,25 @@
 --SELECT SORGUSU
---Bir veritabanında yer alan bir veya daha fazla tablodan istenen satır değerlerini almak için kullanılır
+--Bir veritabanÄ±nda yer alan bir veya daha fazla tablodan istenen satÄ±r deÄŸerlerini almak iÃ§in kullanÄ±lÄ±r
 
 select * from urun
 
 select Top 10 * from urun
 
 select UrunNo from urun
-select UrunAdı from urun
+select UrunAdÄ± from urun
 select UrunKategorisi from urun
 
-select TOP 20 UrunAdı,UrunKategorisi from urun
+select TOP 20 UrunAdÄ±,UrunKategorisi from urun
 
 select Top 2 UrunKategorisi from urun 
 
--- * seçeceğiniz sayfanın tüm kolonlarını sizlere getirir
+-- * seÃ§eceÄŸiniz sayfanÄ±n tÃ¼m kolonlarÄ±nÄ± sizlere getirir
 
--- as komutu ile gelen sütuna isim verebiliriz
-select UrunAdedi as Ürün_Adetleri from urun
+-- as komutu ile gelen sÃ¼tuna isim verebiliriz
+select UrunAdedi as ÃœrÃ¼n_Adetleri from urun
 
-
+select * from firma
+select CalÄ±sanIsim as 'Ã‡alÄ±ÅŸanlarÄ±mÄ±z', CalÄ±sanDepartman as 'DepartmanlarÄ±mÄ±z' from firma
+select top 10 * from firma
+select top 10 CalÄ±sanIsim as 'Ä°sim', CalÄ±sanSoyisim as 'Soyisim', CalÄ±sanBolumu as 'AlanlarÄ±' from firma where CalÄ±sanID<6
 
