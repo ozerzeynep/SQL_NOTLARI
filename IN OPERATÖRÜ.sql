@@ -1,6 +1,6 @@
---IN OPERATÖRÜ
---Parantez içerisinde bulunan koşulları sağlıyorsa çalıştırır
+--IN OPERATÃ–RÃœ
+--Parantez iÃ§erisindeki koÅŸullarÄ± saÄŸladÄ±ÄŸÄ± zaman Ã§alÄ±ÅŸÄ±r.
 
-select * from urun where UrunKategorisi in('Baklagil','Kuruyemiş')
-select * from urun where UrunAdı in('Kayısı','Limon')
+select * from urun where UrunKategorisi in('Baklagil','KuruyemiÃ¾')
+select * from urun where UrunAdÃ½ in('KayÃ½sÃ½','Limon')
 select * from urun where UrunNo in(20,15)
