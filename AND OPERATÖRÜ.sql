@@ -1,6 +1,7 @@
---AND OPERATÖRÜ
---Belirtilen koşulların tamamının sağlanması beklenir
+--AND OPERATÃ–RÃœ
+--Belirtilen koÃ¾ullarÃ½n tamamÃ½nÃ½n saÃ°lanmasÃ½ beklenir
 
 select * from urun where UrunAdedi<=400 and UrunKategorisi='Meyve'
 select * from urun where UrunNo>10 and UrunAdedi>=300
 select * from urun where UrunKategorisi='Sebze' and UrunNo>6
+select * from firma where CalÄ±sanID>15 and CalÄ±sanDepartman='Teknik Servis'
