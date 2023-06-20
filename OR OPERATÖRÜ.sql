@@ -1,5 +1,6 @@
---OR OPERATÖRÜ
---Koşulların birinin sağlanması yeterli olacaktır
+--OR OPERATÃ–RÃœ
+--KoÅŸullarÄ±n birinin saÄŸlanmasÄ± yeterli olacaktÄ±r
 
-select * from urun where UrunAdı='Lahana' or UrunKategorisi='Meyve'
+select * from urun where UrunAdÄ±='Lahana' or UrunKategorisi='Meyve'
 select * from urun where UrunNo>50 or UrunAdedi>=700
+select * from firma where CalÄ±sanID>15 or CalÄ±sanDepartman='Teknik Servis'
