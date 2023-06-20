@@ -1,8 +1,8 @@
 --WHERE KOMUTU
---Belirtilen koşula göre verileri filtrelemek için kullanılır
+--Belirtilen koÅŸula gÃ¶re verileri filtrelemek iÃ§in kullanÄ±lÄ±r.
 
 select * from urun where UrunNo<25
 select * from urun where UrunKategorisi='Meyve'
 select * from urun where UrunAdedi>430
-select * from urun where UrunAdı='Elma'
+select * from urun where UrunAdÃ½='Elma'
 
