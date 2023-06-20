@@ -1,6 +1,6 @@
---COUNT FONKSİYONU
---Tabloda belirtilen sütunda toplam kaç adet kayıt olduğunu gösterir
+--COUNT FONKSÄ°YONU
+--Tabloda belirtilen sÃ¼tunda toplam kaÃ§ adet kayÄ±t olduÄŸunu gÃ¶sterir.
 
-select COUNT(UrunAdı) from urun
+select COUNT(UrunAdÄ±) from urun
 select COUNT(UrunNo) from urun
 
