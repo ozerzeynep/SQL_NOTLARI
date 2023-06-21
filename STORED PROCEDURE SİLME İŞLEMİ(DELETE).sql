@@ -1,10 +1,10 @@
---STORED PROCEDURE SÝLME ÝÞLEMÝ(DELETE)
+--STORED PROCEDURE SÄ°LME Ä°ÅžLEMÄ°(DELETE)
 
 create proc sp_silmeYap
 as
 begin
-	delete from firma where CalýsanID=40
+	delete from firma where CalisanID=40
 end
 
 exec sp_silmeYap
-exec sp_calýsan
+exec sp_calisan
