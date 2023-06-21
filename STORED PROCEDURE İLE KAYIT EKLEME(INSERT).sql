@@ -1,11 +1,11 @@
---STORED PROCEDURE ÝLE KAYIT EKLEME(INSERT)
-create proc sp_calýsanEkle
+--STORED PROCEDURE Ä°LE KAYIT EKLEME(INSERT)
+create proc sp_calisanEkle
 as
 begin
-	insert into firma(CalýsanIsim,CalýsanSoyisim,CalýsanDepartman,CalýsanBolumu)
-	values('Kuzey','Yýldýrým','Yazýlým','Bilgisayar Mühendisliði')		
+	insert into firma(CalisanIsim,CalisanSoyisim,CalisanDepartman,CalisanBolumu)
+	values('Kuzey','Yildirim','Yazilim','Bilgisayar MÃ¼hendisliÄŸi')		
 end
 
-exec sp_calýsanEkle		
-exec sp_calýsan
+exec sp_calisanEkle		
+exec sp_calisan
 
